@@ -1793,7 +1793,7 @@ input, select, textarea {
 		ul.social li {
 			position: relative;
 			display: inline-block;
-			margin: 0.25em;
+			margin: 0.1em;
 			top: 0;
 			padding-left: 0;
 		}
@@ -1804,9 +1804,9 @@ input, select, textarea {
 				-ms-transition: top .2s ease-in-out;
 				transition: top .2s ease-in-out;
 				display: block;
-				width: 48px;
-				height: 48px;
-				border-radius: 6px;
+				width: 80px;
+				height: 60px;
+				border-radius: 8px;
 				top: 0;
 				position: relative;
 			}
@@ -1825,14 +1825,14 @@ input, select, textarea {
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
 					display: block;
-					font-size: 26px;
-					height: 48px;
-					line-height: 48px;
+					font-size: 36px;
+					height: 60px;
+					line-height: 60px;
 					text-align: center;
 					outline: 0;
 					overflow: hidden;
 					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
-					width: 48px;
+					width: 80px;
 				}
 
 				ul.social li a.fa-twitter {
@@ -2470,3 +2470,6 @@ input, select, textarea {
 
 	}
 
+.contact-info li:hover {
+    color: #383838; /* Change this to the color you want */
+}
