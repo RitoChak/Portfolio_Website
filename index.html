@@ -14,7 +14,14 @@
 					<li><a href="#top">Home</a></li>
 					<li><a href="#about">About Me</a></li>
 					<li><a href="#work">My Projects</a></li>
-					<li><a href="#certificates">My Certification Courses</a></li>
+					<li class="dropdown">
+            			<a href="#certificates" class="dropbtn">My Certificates</a>
+            			<div class="dropdown-content">
+            				<a href="#certificates">All Certificates</a>
+                			<a href="#specializations">Specializations</a>
+                			<a href="#individual-courses">Individual Courses</a>
+            			</div>
+        			</li>
 					<li><a href="#portfolio">Resume</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -126,114 +133,123 @@
 			</article>
 
 
-		<!-- Certificates -->
+		<!-- New Certificates -->
 			<article id="certificates" class="wrapper style3">
-				<div class="container">
-					<header>
-						<h2>Here’s some certification courses I've completed recently.</h2>
-						<p>This is all of my certification courses.</p>
-					</header>
-					<div class="row">
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/e73c795e9530ca5a1aada0a8ec114906" class="image featured"><img src="images/ML_Special.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/specializations/machine-learning-introduction">Machine Learning Specialization</a></h2>
-								<h3><a href="https://coursera.org/share/e73c795e9530ca5a1aada0a8ec114906">Certificate of Completion</a></h3>
-								<br>
-								<p>The Machine Learning Specialization is a foundational online program created in collaboration between DeepLearning.AI and Stanford Online. It provides a broad introduction to modern machine learning, including supervised learning (multiple linear regression, logistic regression, neural networks, and decision trees), unsupervised learning (clustering, dimensionality reduction, recommender systems), and some of the best practices used in Silicon Valley for artificial intelligence and machine learning innovation (evaluating and tuning models, taking a data-centric approach to improving performance, and more.)</p>
-							</article>
+    			<div class="container">
+        			<header>
+            			<h2>Here’s some certification courses I've completed recently.</h2>
+            			<p>This is all of my certification courses.</p>
+        			</header>
+        			<div id="specializations" class="cert-section">
+            			<h2>Specializations</h2>
+            			<!-- Specializations content goes here -->
+            			<div class="row">
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/e73c795e9530ca5a1aada0a8ec114906" class="image featured"><img src="images/ML_Special.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/specializations/machine-learning-introduction">Machine Learning Specialization</a></h2>
+									<h3><a href="https://coursera.org/share/e73c795e9530ca5a1aada0a8ec114906">Certificate of Completion</a></h3>
+									<br>
+									<p>The Machine Learning Specialization is a foundational online program created in collaboration between DeepLearning.AI and Stanford Online. It provides a broad introduction to modern machine learning, including supervised learning (multiple linear regression, logistic regression, neural networks, and decision trees), unsupervised learning (clustering, dimensionality reduction, recommender systems), and some of the best practices used in Silicon Valley for artificial intelligence and machine learning innovation (evaluating and tuning models, taking a data-centric approach to improving performance, and more.)</p>
+								</article>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/064b509b6b7b8c641edd315296f8e33e" class="image featured"><img src="images/DL_Special.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a></h2>
+									<h3><a href="https://coursera.org/share/064b509b6b7b8c641edd315296f8e33e">Certificate of Completion</a></h3>
+									<br>
+									<p>The Deep Learning Specialization is a foundational program that helps in understanding the capabilities, challenges, and consequences of deep learning and prepares to participate in the development of leading-edge AI technology.</p>
+								</article>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/f6e4c0b08298660a17941b2b638d1e3c" class="image featured"><img src="images/Maths_Spec.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science">Mathematics for Machine Learning and Data Science Specialization</a></h2>
+									<h3><a href="https://coursera.org/share/f6e4c0b08298660a17941b2b638d1e3c">Certificate of Completion</a></h3>
+									<br>
+									<p>Mathematics for Machine Learning and Data Science is a foundational online program created by DeepLearning.AI . This Specialization is to master the fundamental mathematics toolkit of machine learning. It consists of 3 courses : Linear Algebra, Calculus and Probablity & Statistics.</p>
+								</article>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/fc9331a9dd8aa7f91582887deaa3b9a0" class="image featured"><img src="images/Git.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/learn/introduction-git-github">Introduction to Git and Github</a></h2>
+									<h3><a href="https://coursera.org/share/fc9331a9dd8aa7f91582887deaa3b9a0">Certificate of Completion</a></h3>
+									<br>
+									<p>This course is to learn how to keep track of the different versions of my code and configuration files using a popular version control system (VCS) called Git. It also goes through how to set up an account with a service called GitHub so that I can create my very own remote repositories to store my code and configuration.</p>
+								</article>
+							</div>
 						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/064b509b6b7b8c641edd315296f8e33e" class="image featured"><img src="images/DL_Special.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/specializations/deep-learning">Deep Learning Specialization</a></h2>
-								<h3><a href="https://coursera.org/share/064b509b6b7b8c641edd315296f8e33e">Certificate of Completion</a></h3>
-								<br>
-								<p>The Deep Learning Specialization is a foundational program that helps in understanding the capabilities, challenges, and consequences of deep learning and prepares to participate in the development of leading-edge AI technology.</p>
-							</article>
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/f6e4c0b08298660a17941b2b638d1e3c" class="image featured"><img src="images/Maths_Spec.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science">Mathematics for Machine Learning and Data Science Specialization</a></h2>
-								<h3><a href="https://coursera.org/share/f6e4c0b08298660a17941b2b638d1e3c">Certificate of Completion</a></h3>
-								<br>
-								<p>Mathematics for Machine Learning and Data Science is a foundational online program created by DeepLearning.AI . This Specialization is to master the fundamental mathematics toolkit of machine learning. It consists of 3 courses : Linear Algebra, Calculus and Probablity & Statistics.</p>
-							</article>
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/fc9331a9dd8aa7f91582887deaa3b9a0" class="image featured"><img src="images/Git.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/learn/introduction-git-github">Introduction to Git and Github</a></h2>
-								<h3><a href="https://coursera.org/share/fc9331a9dd8aa7f91582887deaa3b9a0">Certificate of Completion</a></h3>
-								<br>
-								<p>This course is to learn how to keep track of the different versions of my code and configuration files using a popular version control system (VCS) called Git. It also goes through how to set up an account with a service called GitHub so that I can create my very own remote repositories to store my code and configuration.</p>
-							</article>
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/4be7ff1b7156f0a738bc0b45fa687da7" class="image featured"><img src="images/Py_1.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/learn/python">Programming for Everybody (Getting Started with Python)</a></h2>
-								<h3><a href="https://www.coursera.org/account/accomplishments/certificate/D7ZSMNLD8BNJ">Certificate of Completion</a></h3>
-								<br>
-								<p>This course aims to teach everyone the basics of programming computers using Python. It covers the basics of how one constructs a program from a series of simple instructions in Python.</p>
-							</article>
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/d17a98ae600341f24d33170557578e6a" class="image featured"><img src="images/Py_2.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/learn/python-data">Python Data Structures</a></h2>
-								<h3><a href="https://coursera.org/share/d17a98ae600341f24d33170557578e6a">Certificate of Completion</a></h3>
-								<br>
-								<p>This course introduces the core data structures of the Python programming language. We move past the basics of procedural programming and explore how we can use the Python built-in data structures such as lists, dictionaries, and tuples to perform increasingly complex data analysis.</p>
-							</article>
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/f61b72576e6cc03ea8a31887a530482a" class="image featured"><img src="images/Py_3.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/learn/python-network-data">Using Python to Access Web Data</a></h2>
-								<h3><a href="https://coursera.org/share/f61b72576e6cc03ea8a31887a530482a">Certificate of Completion</a></h3>
-								<br>
-								<p>This course shows how one can treat the Internet as a source of data.  We scrape, parse, and read web data as well as access data using web APIs.  We work with HTML, XML, and JSON data formats in Python.</p>
-							</article>
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/d480fbddd4d10d136dcc6db9f432e63a" class="image featured"><img src="images/Py_4.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/learn/python-databases">Using Databases with Python</a></h2>
-								<h3><a href="https://coursera.org/share/d480fbddd4d10d136dcc6db9f432e63a">Certificate of Completion</a></h3>
-								<br>
-								<p>This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort.  The course uses SQLite3 as its database.</p>
-							</article>
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/201a87d2036813c2b4447ce7bca2fc46" class="image featured"><img src="images/Learn.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn: Powerful mental tools to help you master tough subjects</a></h2>
-								<h3><a href="https://coursera.org/share/201a87d2036813c2b4447ce7bca2fc46">Certificate of Completion</a></h3>
-								<br>
-								<p>This course gives easy access to the invaluable learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines.</p>
-							</article>
-						</div>
-						<div class="col-3 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="https://coursera.org/share/139b2107df4cdf2d586b65bdc29037d6" class="image featured"><img src="images/AI.jpg" alt="" /></a>
-								<h2><a href="https://www.coursera.org/learn/ai-for-everyone">AI for Everyone</a></h2>
-								<h3><a href="https://coursera.org/share/139b2107df4cdf2d586b65bdc29037d6">Certificate of Completion</a></h3>
-								<br>
-								<p>This course teaches the meaning behind common AI terminology, including neural networks, machine learning, deep learning, and data science. This also teaches what AI realistically can and cannot do.</p>
-							</article>
-						</div>
-
-					</div>
-					<footer>
-						<div>
-							<a href="#work" class="button small">My Projects</a>
-							<a href="#portfolio" class="button small scrolly">See my resume</a>
-							<a href="#contact" class="button small">Contact Me</a>
-						</div>
-					</footer>
-				</div>
+        			</div>
+        			<div id="individual-courses" class="cert-section">
+            			<h2>Individual Courses</h2>
+            			<!-- Individual Courses content goes here -->
+            			<div class="row">
+            				<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/4be7ff1b7156f0a738bc0b45fa687da7" class="image featured"><img src="images/Py_1.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/learn/python">Programming for Everybody (Getting Started with Python)</a></h2>
+									<h3><a href="https://www.coursera.org/account/accomplishments/certificate/D7ZSMNLD8BNJ">Certificate of Completion</a></h3>
+									<br>
+									<p>This course aims to teach everyone the basics of programming computers using Python. It covers the basics of how one constructs a program from a series of simple instructions in Python.</p>
+								</article>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/d17a98ae600341f24d33170557578e6a" class="image featured"><img src="images/Py_2.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/learn/python-data">Python Data Structures</a></h2>
+									<h3><a href="https://coursera.org/share/d17a98ae600341f24d33170557578e6a">Certificate of Completion</a></h3>
+									<br>
+									<p>This course introduces the core data structures of the Python programming language. We move past the basics of procedural programming and explore how we can use the Python built-in data structures such as lists, dictionaries, and tuples to perform increasingly complex data analysis.</p>
+								</article>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/f61b72576e6cc03ea8a31887a530482a" class="image featured"><img src="images/Py_3.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/learn/python-network-data">Using Python to Access Web Data</a></h2>
+									<h3><a href="https://coursera.org/share/f61b72576e6cc03ea8a31887a530482a">Certificate of Completion</a></h3>
+									<br>
+									<p>This course shows how one can treat the Internet as a source of data.  We scrape, parse, and read web data as well as access data using web APIs.  We work with HTML, XML, and JSON data formats in Python.</p>
+								</article>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/d480fbddd4d10d136dcc6db9f432e63a" class="image featured"><img src="images/Py_4.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/learn/python-databases">Using Databases with Python</a></h2>
+									<h3><a href="https://coursera.org/share/d480fbddd4d10d136dcc6db9f432e63a">Certificate of Completion</a></h3>
+									<br>
+									<p>This course introduces the basics of the Structured Query Language (SQL) as well as basic database design for storing data as part of a multi-step data gathering, analysis, and processing effort.  The course uses SQLite3 as its database.</p>
+								</article>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/201a87d2036813c2b4447ce7bca2fc46" class="image featured"><img src="images/Learn.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/learn/learning-how-to-learn">Learning How to Learn: Powerful mental tools to help you master tough subjects</a></h2>
+									<h3><a href="https://coursera.org/share/201a87d2036813c2b4447ce7bca2fc46">Certificate of Completion</a></h3>
+									<br>
+									<p>This course gives easy access to the invaluable learning techniques used by experts in art, music, literature, math, science, sports, and many other disciplines.</p>
+								</article>
+							</div>
+							<div class="col-3 col-6-medium col-12-small">
+								<article class="box style2">
+									<a href="https://coursera.org/share/139b2107df4cdf2d586b65bdc29037d6" class="image featured"><img src="images/AI.jpg" alt="" /></a>
+									<h2><a href="https://www.coursera.org/learn/ai-for-everyone">AI for Everyone</a></h2>
+									<h3><a href="https://coursera.org/share/139b2107df4cdf2d586b65bdc29037d6">Certificate of Completion</a></h3>
+									<br>
+									<p>This course teaches the meaning behind common AI terminology, including neural networks, machine learning, deep learning, and data science. This also teaches what AI realistically can and cannot do.</p>
+								</article>
+							</div>
+            			</div>	
+        			</div>
+        			<footer>
+            			<div>
+                			<a href="#work" class="button small">My Projects</a>
+                			<a href="#portfolio" class="button small scrolly">See my resume</a>
+                			<a href="#contact" class="button small">Contact Me</a>
+            			</div>
+        			</footer>
+    			</div>
 			</article>
 
 
