@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 @import url("fontawesome-all.min.css");
 
-/*
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -86,6 +81,7 @@ input, select, textarea {
 		padding-top: 3.5em;
 	}
 
+		
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -2473,3 +2469,70 @@ input, select, textarea {
 .contact-info li:hover {
     color: #383838; /* Change this to the color you want */
 }
+
+/* NEW SECTION */
+
+<style>
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropbtn {
+        background-color: teal;
+        color: grey;
+        padding: 10px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: teal;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        text-align: center; 
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center; 
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>
+
+<script>
+    // Add this script to handle the dropdown functionality
+    document.addEventListener("DOMContentLoaded", function () {
+        // Handle dropdown click
+        document.querySelector('.dropbtn').addEventListener('click', function () {
+            document.querySelector('.dropdown-content').classList.toggle('show');
+        });
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        };
+    });
+</script>
