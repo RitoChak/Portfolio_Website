@@ -1847,6 +1847,10 @@ input, select, textarea {
 					background-color: #006599;
 				}
 
+				ul.social li a.fa-kaggle {
+					background-color: #00BFFF;
+				}
+
 				ul.social li a.fa-tumblr {
 					background-color: #51718A;
 				}
