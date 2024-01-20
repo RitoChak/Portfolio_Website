@@ -1,2 +1,5 @@
 # Portfolio_Website
-Code for my portfolio website.
+This repository contains the code for my portfolio website.
+
+
+To go to my portfolio website page, [click here.](https://ritochak.github.io/Portfolio_Website/)
